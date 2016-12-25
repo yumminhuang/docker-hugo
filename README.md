@@ -4,6 +4,18 @@
 
 Docker image for [Hugo](https://gohugo.io/) — a fast & modern static page generator.
 
+# Build
+
+```shell
+docker build -t yumminhuang/hugo:latest .
+```
+
+Specify Hugo version in `--build-arg`
+
+```shell
+docker build -t yumminhuang/hugo:0.17 --build-arg HUGO_VERSION=0.17
+```
+
 # Run
 
 Generate static web pages in `public` directory
@@ -17,4 +29,3 @@ Launch [hugo server](https://gohugo.io/commands/hugo_server/), which is very use
 ```shell
 docker run --rm -p 1313:1313 -v $(pwd):/website yumminhuang/hugo:latest server --bind=0.0.0.0 -w -D
 ```
-
