@@ -1,7 +1,7 @@
 FROM alpine:latest
 MAINTAINER Yaming Huang <yumminhuang@gmail.com>
 
-ARG HUGO_VERSION=0.18
+ARG HUGO_VERSION=0.18.1
 
 RUN apk add --update wget ca-certificates && \
   cd /tmp/ && \
@@ -12,8 +12,7 @@ RUN apk add --update wget ca-certificates && \
   apk del wget ca-certificates && \
   rm /var/cache/apk/*
 
-VOLUME /website
-VOLUME /public
+VOLUME ["/website", "/public"]
 
 WORKDIR /website
 EXPOSE 1313
