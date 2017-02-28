@@ -1,7 +1,7 @@
 FROM alpine:latest
 MAINTAINER Yaming Huang <yumminhuang@gmail.com>
 
-ARG HUGO_VERSION=0.18.1
+ARG HUGO_VERSION=0.19
 
 RUN apk add --update wget ca-certificates && \
   cd /tmp/ && \
