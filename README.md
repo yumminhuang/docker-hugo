@@ -2,9 +2,13 @@
 
 [![Docker Automated buil](https://img.shields.io/badge/docker-automated-blue.svg)](https://hub.docker.com/r/yumminhuang/hugo-docker/)
 
-Docker image for [Hugo](https://gohugo.io/) — a fast & modern static page generator.
+Docker image for [Hugo](https://gohugo.io/) —  a fast & modern static page generator.
+
+Check out [Hugo repository](https://github.com/spf13/hugo).
 
 # Build
+
+Build the latest version
 
 ```shell
 docker build -t yumminhuang/hugo:latest .
@@ -13,7 +17,7 @@ docker build -t yumminhuang/hugo:latest .
 Specify Hugo version in `--build-arg`
 
 ```shell
-docker build -t yumminhuang/hugo:0.17 --build-arg HUGO_VERSION=0.17
+docker build -t yumminhuang/hugo:0.18 --build-arg HUGO_VERSION=0.18
 ```
 
 # Run
