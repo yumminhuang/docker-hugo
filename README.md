@@ -6,7 +6,7 @@
 
 Docker image for [Hugo](https://gohugo.io/) —  a fast & modern static page generator.
 
-Check out [Hugo repository](https://github.com/spf13/hugo).
+Check out [Hugo repository](https://github.com/gohugoio/hugo).
 
 # Build
 
