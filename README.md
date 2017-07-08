@@ -1,4 +1,4 @@
-# hugo-docker
+# docker-hugo
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/yumminhuang/docker-hugo.svg)](https://hub.docker.com/r/yumminhuang/docker-hugo/)
 [![Docker Automated build](https://img.shields.io/docker/automated/yumminhuang/docker-hugo.svg)](https://github.com/yumminhuang/docker-hugo)
