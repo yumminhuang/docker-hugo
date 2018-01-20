@@ -2,7 +2,7 @@ FROM alpine:latest
 
 MAINTAINER Yaming Huang <yumminhuang@gmail.com>
 
-ARG HUGO_VERSION=0.32.4
+ARG HUGO_VERSION=0.33
 
 RUN apk add --no-cache --update curl ca-certificates && \
     cd /tmp/ && \
