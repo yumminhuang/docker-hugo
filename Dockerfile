@@ -1,8 +1,8 @@
 FROM alpine:latest
 
-MAINTAINER Yaming Huang <yumminhuang@gmail.com>
+LABEL maintainer="Yaming Huang<yumminhuang@gmail.com>"
 
-ARG HUGO_VERSION=0.36.1
+ARG HUGO_VERSION=0.37
 
 RUN apk add --no-cache --update curl ca-certificates && \
     cd /tmp/ && \
