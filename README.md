@@ -19,7 +19,7 @@ docker build -t yumminhuang/docker-hugo:latest .
 Specify Hugo version in `--build-arg`
 
 ```shell
-docker build -t yumminhuang/docker-hugo:0.20 --build-arg HUGO_VERSION=0.20
+docker build -t yumminhuang/docker-hugo:0.55.0 --build-arg HUGO_VERSION=0.55.0
 ```
 
 # Run
