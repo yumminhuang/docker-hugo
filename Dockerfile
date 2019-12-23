@@ -2,7 +2,7 @@ FROM alpine:latest
 
 LABEL maintainer="Yaming Huang<yumminhuang@gmail.com>"
 
-ARG HUGO_VERSION=0.61.0
+ARG HUGO_VERSION=0.62.0
 
 RUN apk add --no-cache --update curl ca-certificates && \
     cd /tmp/ && \
